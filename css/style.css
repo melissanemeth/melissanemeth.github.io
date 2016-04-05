@@ -1,0 +1,59 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747784;
+  font-weight: 300;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+body {
+  padding-top: 60px;
+}
+
+#gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2eef4+0,c2dbea+31,59bcf9+100 */
+background: #e2eef4; /* Old browsers */
+background: -moz-linear-gradient(top, #e2eef4 0%, #c2dbea 31%, #59bcf9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2eef4), color-stop(31%,#c2dbea), color-stop(100%,#59bcf9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e2eef4 0%,#c2dbea 31%,#59bcf9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e2eef4 0%,#c2dbea 31%,#59bcf9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e2eef4 0%,#c2dbea 31%,#59bcf9 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e2eef4 0%,#c2dbea 31%,#59bcf9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2eef4', endColorstr='#59bcf9',GradientType=0 ); /* IE6-9 */
+!important;
+}
+
+#portfolio:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -60px; 
+  height: 60px; 
+  visibility: hidden; 
+}
+
+.social-icons {
+  margin-left: -10px;
+}
+
+#email {
+  margin-left: -30px;
+  padding-right: 40px;
+}
+
+#github {
+  margin-right: -35px;
+}
